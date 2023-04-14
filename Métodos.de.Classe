@@ -1,0 +1,7 @@
+Trata-se de um método que pode acessar a classe e retornar uma instância de um objeto! (Criação)
+
+@classmethod
+def criar_conta(cls, nmr, ttlr, saldo ....)
+  ttlt = ttlr.tittle()
+  if saldo > 0:
+    return cls(numero=nmr, saldo=saldo, ttlr=titulo)
