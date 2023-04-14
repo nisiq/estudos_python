@@ -1,0 +1,8 @@
+PYTHON - Orientação a Objetos
+
+abstrações para trechos de programas. Podemos pegar um trecho de programa e dar um nome significativo para ele.
+No ponto que o programador deseja executar aquele trecho de programa ele invoca ou chama aquele trecho.
+
+
+@property = cria um getter
+@staticmethod
