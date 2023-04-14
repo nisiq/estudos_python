@@ -1,0 +1,53 @@
+Conceito do paradigma da orientação à objetos que determina que uma classe (filha) pode herdar atributos e métodos de uma outra classe (pai) e, 
+assim, evitar que haja muita repetição de código.
+
+
+Atributo/Método... tudo que tem na classe mãe serve pra classe filha
+
+
+class Veiculo():
+  def __init__(self, dono) -> None:
+    self._dono
+    self.nivel_tanque = 0
+    
+  def abastecer(self, litros):
+    self.nivel_tanque = litros
+    
+class Carro(Veiculo):
+    def __init__(self, dono -> None:
+     super().__init__(dono)
+
+class Moto(Veiculo):
+    def __init__(self, dono) -> None:
+      super().__init__(dono)
+      pass
+      
+      
+if __name__ == "__main__":
+   palio = Carro()
+   cg160 = Moto()
+   palio.abastecer(20)
+   cg160.abastecer(10)
+   print("PALIO: ", palio.nivel_tanque)
+   print
+   
+
+   
+   nã dá pra acessar atributo privado e usar na classe filha
+   para que as classes filhas possam usar = _ (1 underline só) 
+   
+   
+   Vantagens:
+   compartilhar códigos ocm as subclasses
+   todas as subclasses tem acesso aos métodos criados na superclasse
+   reduz a duplicação de código e pontos de falha
+   a herança faz com que o seu código não fique duplicado, reduzindo pontos de falha
+   
+   
+   
+   
+   
+   
+   
+      
+      
