@@ -1,0 +1,21 @@
+Criando uma constante,
+
+É um estado que vive na classe. Por conta disso, sempre que você cria um novo objeto dessa classe, eles possuem o mesmo valor para o atributo.
+Esses atributos são os mesmos para todos os objetos, eles são compartilhados. Uma mudança em um destes atributos é visível por todos os objetos instanciados.
+
+class Circulo:
+  @staticmethod
+  def obter_pi():
+    return 3.14
+
+MELHORANDO ISSO....
+  
+  class Circulo:
+    PI = 3.14
+    @staticmethod
+    def obter_pi():
+      return Circulo.PI
+      
+      class method: construit objeto novo dentro da classe
+      
+      
