@@ -1,0 +1,6 @@
+É a capacidade que uma subclasse tem de ter métodos com o mesmo nome de sua superclasse, e o programa saber qual método deve ser invocado, especificamente
+(da super ou sub). Ou seja, o objeto tem a capacidade de assumir diferentes formas (polimorfismo)
+
+
+def __str__(self)
+str = __str__ é um método especial, como __init__, usado para retornar uma representação de string de um objeto.
